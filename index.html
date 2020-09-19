@@ -5,597 +5,526 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap"
-    rel="stylesheet">
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-  <section class="content">
-    <header class="header">
-      <div class="container">
-        <div class="header__logo">
-          <a class="header__logo-link" href="#">
-            <img src="images/title-2.png" alt="">
-          </a>
-        </div>
+  <header class="header">
+    <div class="container">
+      <section class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__list-item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="breadcrumbs__list-item">
+            <span href="#">Типы нанесения</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </header>
 
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__list-item">
-              <a href="#">
-                Личный кабинет
-              </a>
+  <main class="content">
+    <div class="container">
+      <section class="content__info">
+        <h1 class="title">
+          Типы нанесения
+        </h1>
+        <p class="text">
+          В этом разделе вы сможете ознакомиться со всеми типами нанесения логотипов и изображений на бизнес-подарки,
+          которые мы
+          предлагаем. Здесь вы узнаете все плюсы и минусы каждого способа нанесения, а также сможете выбрать идеальное
+          нанесение
+          для вашего изделия.
+        </p>
+      </section>
+      <section class="filter">
+        <h2 class="filter__title">
+          Фильтрация типов нанесения по материалам изделий:
+        </h2>
+        <div class="filter__buttons">
+          <ul class="filter__menu">
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="plastic-btn">
+                <img src="images/plastic.svg" alt="">
+                <span>
+                  Пластик
+                </span>
+              </button>
             </li>
-            <li class="menu__list-item">
-              <a href="#">
-                о нас
-              </a>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="glass-btn">
+                <img src="images/glass.svg" alt="">
+                <span>
+                  Стекло
+                </span>
+              </button>
             </li>
-            <li class="menu__list-item">
-              <a href="#">
-                how to
-              </a>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="paper-btn">
+                <img src="images/paper.svg" alt="">
+                <span>
+                  Бумага, пластик
+                </span>
+              </button>
+            </li>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="ceramics-btn">
+                <img src="images/ceramics.svg" alt="">
+                <span>
+                  Керамика, фарфор
+                </span>
+              </button>
+            </li>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="textile-btn">
+                <img src="images/textile.svg" alt="">
+                <span>
+                  Текстиль
+                </span>
+              </button>
+            </li>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="tree-btn">
+                <img src="images/tree.svg" alt="">
+                <span>
+                  Дерево
+                </span>
+              </button>
+            </li>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="metal-btn">
+                <img src="images/metal.svg" alt="">
+                <span>
+                  Металл
+                </span>
+              </button>
+            </li>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="orgaplastic-btn">
+                <img src="images/orgaplastic.svg" alt="">
+                <span>
+                  Оргапластик
+                </span>
+              </button>
+            </li>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="marble-btn">
+                <img src="images/marble.svg" alt="">
+                <span>
+                  Камень, мрамор
+                </span>
+              </button>
+            </li>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="skin-btn">
+                <img src="images/skin.svg" alt="">
+                <span>
+                  Кожа
+                </span>
+              </button>
+            </li>
+            <li class="filter__menu-item">
+              <button type="button" class="menu-item__btn" id="material-btn">
+                <img src="images/material.svg" alt="">
+                <span>
+                  Термоустойчивый материал
+                </span>
+              </button>
             </li>
           </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="info">
-      <div class="container">
-        <div class="info__inner">
-          <div class="info__check">
-            <div class="info__title">
-              kon
-              <!-- <img src="images/kon-title.png" alt=""> -->
-            </div>
-            <div class="info__check-item">
-              <ul class="check-item__about-list">
-                <li class="about-list__item">
-                  Участников:
-                  <span>
-                    215 500
-                  </span>
-                </li>
-                <li class="about-list__item">
-                  всего ставок:
-                  <span>
-                    431 000
-                  </span>
-                </li>
-              </ul>
-              <ul class="check-item__event-list">
-                <li class="even__menu-item">
-                  событие 1:
-                  <span>
-                    215 500
-                  </span>
-                </li>
-                <li class="even__menu-item">
-                  событие 2:
-                  <span>
-                    215 500
-                  </span>
-                </li>
-              </ul>
-              <div class="check-item__title">
-                Участники
-              </div>
-              <div class="check-item__start">
-                <h3 class="start__title">
-                  start:
-                  <span>
-                    12:00
-                  </span>
-                </h3>
-                <p class="start__time">
-                  00:30
-                </p>
-              </div>
-              <div class="check-item__price">
-                <p class="price__item">
-                  7$
-                </p>
-                <div class="price__promo">
-                  a010820138
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="info__ctr">
-            <div class="ctr__title">
-              <img src="images/ctr-title.png" alt="">
-            </div>
-            <div class="ctr__inner">
-              <img src="images/rocket-num.png" alt="">
-              <!-- <div class="ctr__item">
-                <p class="ctr__item-num">
-                  10
-                </p>
-              </div>
-              <div class="ctr__item">
-                <p class="ctr__item-num">
-                  50
-                </p>
-              </div>
-              <div class="ctr__item">
-                <p class="ctr__item-num">
-                  100
-                </p>
-              </div> -->
-            </div>
-          </div>
-
-          <div class="info__top">
-            <div class="info__title info__top-title">
-              top
-              <!-- <img src="images/top-title.png" alt=""> -->
-            </div>
-
-            <div class="top__inner">
-              <ul class="top__list">
-                <li class="top__list-item top__list-item-name">Сегодня</li>
-                <li class="top__list-item">Name_01</li>
-                <li class="top__list-item">Name_02</li>
-                <li class="top__list-item">Name_03</li>
-                <li class="top__list-item">Name_04</li>
-                <li class="top__list-item">Name_05</li>
-                <li class="top__list-item">Name_06</li>
-                <li class="top__list-item">Name_07</li>
-                <li class="top__list-item">Name_08</li>
-                <li class="top__list-item">Name_09</li>
-                <li class="top__list-item">Name_10</li>
-              </ul>
-              <ul class="top__list top__list-ctr">
-                <li class="top__list-item top__list-item-name">Неделя</li>
-                <li class="top__list-item">Name_01</li>
-                <li class="top__list-item">Name_02</li>
-                <li class="top__list-item">Name_03</li>
-                <li class="top__list-item">Name_04</li>
-                <li class="top__list-item">Name_05</li>
-                <li class="top__list-item">Name_06</li>
-                <li class="top__list-item">Name_07</li>
-                <li class="top__list-item">Name_08</li>
-                <li class="top__list-item">Name_09</li>
-                <li class="top__list-item">Name_10</li>
-              </ul>
-              <ul class="top__list">
-                <li class="top__list-item top__list-item-name">Месяц</li>
-                <li class="top__list-item">Name_01</li>
-                <li class="top__list-item">Name_02</li>
-                <li class="top__list-item">Name_03</li>
-                <li class="top__list-item">Name_04</li>
-                <li class="top__list-item">Name_05</li>
-                <li class="top__list-item">Name_06</li>
-                <li class="top__list-item">Name_07</li>
-                <li class="top__list-item">Name_08</li>
-                <li class="top__list-item">Name_09</li>
-                <li class="top__list-item">Name_10</li>
-              </ul>
-            </div>
-
-          </div>
-
         </div>
 
-        <div class="info__data">
-          <div class="info__data-inner">
-            <div class="info__data-first">
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
-              <div class="info__data-item"></div>
+        <section class="filter__inner">
+
+          <div class="filter__item plastic glass paper ceramics">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-1.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Тампопечать
+              </a>
             </div>
-            <div class="info__data-second">
-
-            </div>
-          </div>
-          <div class="info__data-time">
-            <div class="data-time__item">11:00</div>
-            <div class="data-time__item data-time__item-cntr">11:45</div>
-            <div class="data-time__item">12:30</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="rooms">
-      <div class="container">
-        <div class="rooms__inner">
-          <div class="rooms__item">
-            <h6 class="rooms__item-title">
-              room a
-            </h6>
-            <div class="rooms__item-box">
-              <div class="item-box__top">
-                <ul class="check-item__about-list">
-                  <li class="about-list__item">
-                    Участников::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="about-list__item">
-                    всего ставок::
-                    <span>
-                      431 000
-                    </span>
-                  </li>
-                </ul>
-                <ul class="check-item__event-list">
-                  <li class="even__menu-item">
-                    событие 1::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="even__menu-item">
-                    событие 2::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                </ul>
-                <div class="check-item__title">
-                  Участники
-                </div>
-              </div>
-
-              <div class="check-item__start">
-                <h3 class="start__title">
-                  start:
-                  <span>
-                    12:00
-                  </span>
-                </h3>
-                <p class="start__time">
-                  00:30
-                </p>
-              </div>
-              <div class="check-item__price">
-                <p class="price__item">
-                  7$
-                </p>
-                <div class="price__promo">
-                  a010820138
-                </div>
-              </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/glass.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/paper.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/ceramics.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Пластик, стекло, бумага, картон, керамика, фосфор
+              </p>
             </div>
           </div>
 
-          <div class="rooms__item">
-            <h6 class="rooms__item-title">
-              room a
-            </h6>
-            <div class="rooms__item-box">
-              <div class="item-box__top">
-                <ul class="check-item__about-list">
-                  <li class="about-list__item">
-                    Участников::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="about-list__item">
-                    всего ставок::
-                    <span>
-                      431 000
-                    </span>
-                  </li>
-                </ul>
-                <ul class="check-item__event-list">
-                  <li class="even__menu-item">
-                    событие 1::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="even__menu-item">
-                    событие 2::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                </ul>
-                <div class="check-item__title">
-                  Участники
-                </div>
-              </div>
-
-              <div class="check-item__start">
-                <h3 class="start__title">
-                  start:
-                  <span>
-                    12:00
-                  </span>
-                </h3>
-                <p class="start__time">
-                  00:30
-                </p>
-              </div>
-              <div class="check-item__price">
-                <p class="price__item">
-                  7$
-                </p>
-                <div class="price__promo">
-                  a010820138
-                </div>
-              </div>
+          <div class="filter__item plastic paper textile tree">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-2.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Трафаретная печать
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/paper.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/textile.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/tree.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Пластик, бумага, картон, текстиль, дерево
+              </p>
             </div>
           </div>
 
-          <div class="rooms__item">
-            <h6 class="rooms__item-title">
-              room a
-            </h6>
-            <div class="rooms__item-box">
-              <div class="item-box__top">
-                <ul class="check-item__about-list">
-                  <li class="about-list__item">
-                    Участников::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="about-list__item">
-                    всего ставок::
-                    <span>
-                      431 000
-                    </span>
-                  </li>
-                </ul>
-                <ul class="check-item__event-list">
-                  <li class="even__menu-item">
-                    событие 1::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="even__menu-item">
-                    событие 2::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                </ul>
-                <div class="check-item__title">
-                  Участники
-                </div>
-              </div>
-
-              <div class="check-item__start">
-                <h3 class="start__title">
-                  start:
-                  <span>
-                    12:00
-                  </span>
-                </h3>
-                <p class="start__time">
-                  00:30
-                </p>
-              </div>
-              <div class="check-item__price">
-                <p class="price__item">
-                  7$
-                </p>
-                <div class="price__promo">
-                  a010820138
-                </div>
-              </div>
+          <div class="filter__item  textile textile material">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-3.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Термотрансфер
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/textile.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/material.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Текстиль, термоустойчивый метериал
+              </p>
             </div>
           </div>
 
-          <div class="rooms__item">
-            <h6 class="rooms__item-title">
-              room a
-            </h6>
-            <div class="rooms__item-box">
-              <div class="item-box__top">
-                <ul class="check-item__about-list">
-                  <li class="about-list__item">
-                    Участников::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="about-list__item">
-                    всего ставок::
-                    <span>
-                      431 000
-                    </span>
-                  </li>
-                </ul>
-                <ul class="check-item__event-list">
-                  <li class="even__menu-item">
-                    событие 1::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="even__menu-item">
-                    событие 2::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                </ul>
-                <div class="check-item__title">
-                  Участники
-                </div>
-              </div>
-
-              <div class="check-item__start">
-                <h3 class="start__title">
-                  start:
-                  <span>
-                    12:00
-                  </span>
-                </h3>
-                <p class="start__time">
-                  00:30
-                </p>
-              </div>
-              <div class="check-item__price">
-                <p class="price__item">
-                  7$
-                </p>
-                <div class="price__promo">
-                  a010820138
-                </div>
-              </div>
+          <div class="filter__item textile">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-4.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Тиснение
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/textile.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Кожа
+              </p>
             </div>
           </div>
 
-          <div class="rooms__item">
-            <h6 class="rooms__item-title">
-              room a
-            </h6>
-            <div class="rooms__item-box">
-              <div class="item-box__top">
-                <ul class="check-item__about-list">
-                  <li class="about-list__item">
-                    Участников::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="about-list__item">
-                    всего ставок::
-                    <span>
-                      431 000
-                    </span>
-                  </li>
-                </ul>
-                <ul class="check-item__event-list">
-                  <li class="even__menu-item">
-                    событие 1::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="even__menu-item">
-                    событие 2::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                </ul>
-                <div class="check-item__title">
-                  Участники
-                </div>
-              </div>
-
-              <div class="check-item__start">
-                <h3 class="start__title">
-                  start:
-                  <span>
-                    12:00
-                  </span>
-                </h3>
-                <p class="start__time">
-                  00:30
-                </p>
-              </div>
-              <div class="check-item__price">
-                <p class="price__item">
-                  7$
-                </p>
-                <div class="price__promo">
-                  a010820138
-                </div>
-              </div>
+          <div class="filter__item plastic paper tree metal orgaplastic">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-5.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Ультрафиолетовая печать
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/paper.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/tree.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/metal.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/orgaplastic.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Пластик, бумага, картон, дерево, металл, оргпластик
+              </p>
             </div>
           </div>
 
-          <div class="rooms__item">
-            <h6 class="rooms__item-title">
-              room a
-            </h6>
-            <div class="rooms__item-box">
-              <div class="item-box__top">
-                <ul class="check-item__about-list">
-                  <li class="about-list__item">
-                    Участников::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="about-list__item">
-                    всего ставок::
-                    <span>
-                      431 000
-                    </span>
-                  </li>
-                </ul>
-                <ul class="check-item__event-list">
-                  <li class="even__menu-item">
-                    событие 1::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                  <li class="even__menu-item">
-                    событие 2::
-                    <span>
-                      215 500
-                    </span>
-                  </li>
-                </ul>
-                <div class="check-item__title">
-                  Участники
-                </div>
-              </div>
-
-              <div class="check-item__start">
-                <h3 class="start__title">
-                  start:
-                  <span>
-                    12:00
-                  </span>
-                </h3>
-                <p class="start__time">
-                  00:30
-                </p>
-              </div>
-              <div class="check-item__price">
-                <p class="price__item">
-                  7$
-                </p>
-                <div class="price__promo">
-                  a010820138
-                </div>
-              </div>
+          <div class="filter__item plastic paper tree marble skin">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-6.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Лазерная гравировка
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/glass.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/tree.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/skin.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/marble.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Пластик, стекло, кожа, дерево, металл, камень, мрамор
+              </p>
             </div>
           </div>
 
-        </div>
-      </div>
-      <a class="rooms__link" href="#">
-        <span>n</span>
-        <span>e</span>
-        <span>w</span>
-        <span>s</span>
-      </a>
-    </section>
-  </section>
+          <div class="filter__item textile">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-7.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Текстильный принтер
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/textile.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Текстиль
+              </p>
+            </div>
+          </div>
 
+          <div class="filter__item plastic glass paper">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-8.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Полимерная смола
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/glass.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/paper.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Пластик, стекло, бумага, картон
+              </p>
+            </div>
+          </div>
 
+          <div class="filter__item plastic ceramics">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-9.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Деколь
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/ceramics.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Стекло, керамика, фарфор
+              </p>
+            </div>
+          </div>
 
+          <div class="filter__item textile">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-10.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Вышивка
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/textile.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Текстиль
+              </p>
+            </div>
+          </div>
 
+          <div class="filter__item paper">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-11.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Шубер
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/paper.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Бумага, картон
+              </p>
+            </div>
+          </div>
 
+          <div class="filter__item plastic glass paper tree metal">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-12.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Цифровая печать
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/glass.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/paper.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/tree.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/metal.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Пластик, стекло, бумага, картон, дерево, металл
+              </p>
+            </div>
+          </div>
+
+          <div class="filter__item  plastic ceramics textile metal">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-13.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Сублимация
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/ceramics.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/textile.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/metal.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Стекло, керамика, фарфор, текстиль, металл
+              </p>
+            </div>
+          </div>
+
+          <div class="filter__item plastic paper skin tree metal">
+            <a class="filter__item-link" href="#">
+              <img class="filter__item-img" src="images/item-14.jpg" alt="">
+            </a>
+            <div class="filter__item-title">
+              <a class="filter__item-title-link" href="#">
+                Металлостикер
+              </a>
+            </div>
+            <div class="filter__item-box">
+              <ul class="filter__icons">
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/plastic.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/paper.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/skin.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/tree.svg" alt="">
+                </li>
+                <li class="filter__icons-item">
+                  <img class="icons-item__img" src="images/metal.svg" alt="">
+                </li>
+              </ul>
+              <p class="filter__types">
+                Пластик, бумага, картон, кожа, дерево, металл
+              </p>
+            </div>
+          </div>
+
+        </section>
+      </section>
+      </section>
+    </div>
+  </main>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
